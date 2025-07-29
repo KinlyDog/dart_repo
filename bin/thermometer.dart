@@ -22,4 +22,5 @@ class Thermometer {
   get celsius => (_celsius * 100).roundToDouble() / 100;
 
   // test
+  // test from mac
 }

@@ -9,14 +9,14 @@ enum UserRole {
       :_permissions = permissions;
 
   bool hasPermission(String permission) {
-    return this._permissions.contains(permission);
+    return _permissions.contains(permission);
   }
 
-  bool hasReadAccess() => this.hasPermission('read');
+  bool hasReadAccess() => hasPermission('read');
 
-  bool hasWriteAccess() => this.hasPermission('write');
+  bool hasWriteAccess() => hasPermission('write');
 
-  bool hasDeleteAccess() => this.hasPermission('delete');
+  bool hasDeleteAccess() => hasPermission('delete');
 }
 
 void main() {

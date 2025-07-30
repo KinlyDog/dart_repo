@@ -17,9 +17,11 @@ class CappuccinoState implements State {
     final cost = 32;
     final needWater = 0.3;
     final needMilk = 0.1;
+
     var waterResidues = coffeeMachine.getWaterValue() - needWater;
     var milkResidues = coffeeMachine.getMilkValue() - needMilk;
     var moneyResidues = coffeeMachine.getOrderMoney() - cost;
+
     if (moneyResidues >= 0) {
       if (waterResidues >= 0 && milkResidues >= 0) {
         print('Cooking Cappuccino!');
@@ -29,6 +31,7 @@ class CappuccinoState implements State {
       } else {
         print('Not enough ingredients!');
       }
+
       if (coffeeMachine.getOrderMoney() > 0) {
         coffeeMachine.setState(CoffeeMachineState.changeMoney);
         coffeeMachine.returnMoney();

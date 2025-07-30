@@ -1,5 +1,4 @@
-import '../interfaces/i_coffee_machine.dart';
-import '../interfaces/state.dart';
+import '../lib/interfaces.dart';
 import '../lib/states.dart';
 import 'coffee_machine_state.dart';
 

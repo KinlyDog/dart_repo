@@ -1,4 +1,4 @@
-import 'untitled.dart';
+import 'cat.dart';
 
 void main() {
   var cat = Cat(
@@ -7,8 +7,4 @@ void main() {
     age: 15,
     sleepState: false,
   );
-
-  print(cat.name);
-  cat = cat.copyWith(name: 'Vasya');
-  print(cat.name);
 }

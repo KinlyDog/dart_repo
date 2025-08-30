@@ -68,7 +68,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Dart Command Line App.extension_types.dart">
+  <component name="RunManager" selected="Dart Command Line App.money.dart">
     <configuration name="assert.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/bin/assert/assert.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$/bin/assert" />
@@ -79,8 +79,14 @@
       <option name="workingDirectory" value="$PROJECT_DIR$/bin/extenison_types" />
       <method v="2" />
     </configuration>
+    <configuration name="money.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/money_interface/money.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/bin/money_interface" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.money.dart" />
         <item itemvalue="Dart Command Line App.extension_types.dart" />
         <item itemvalue="Dart Command Line App.assert.dart" />
       </list>
